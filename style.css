@@ -1,0 +1,125 @@
+.IssueSelect_issue-select-button-container__dnBNr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 20px
+}
+
+.IssueSelect_issue-select-button-container__dnBNr {
+    margin: 0 10px
+}
+
+
+.IssueSelect_issue-select-button__zBdPD {
+    -webkit-tap-highlight-color: transparent;
+    background-color: #fff;
+    margin: 0 0 10px;
+    padding: 10px 10px 10px 12px;
+    border-radius: 17px;
+    box-shadow: 0 0 7.1px 0 #c1cbdd8f;
+    cursor: pointer;
+    border: none;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: calc(50% - 10px);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 55px;
+    align-items: center;
+    color: var(--bg-secondary)
+}
+
+.IssueSelect_issue-select-button__zBdPD:disabled {
+    opacity: .5;
+    cursor: default;
+    background-color: #eaeaea
+}
+
+.IssueSelect_advanced-option-select-button-selected__IkYkl,.IssueSelect_advanced-option-select-button__6wd8u {
+    padding: 0 12px;
+    height: 36px;
+    background-color: #fff;
+    width: 100%;
+    cursor: pointer;
+    border: 2px solid var(--bg-primary);
+    border-radius: 4px;
+    color: var(--bg-primary);
+    font-size: 12px;
+    font-weight: 600;
+    margin-inline:auto;margin-top: auto
+}
+
+.IssueSelect_advanced-option-select-button-selected__IkYkl {
+    background-color: var(--bg-primary);
+    border: none;
+    color: #fff
+}
+
+.IssueSelect_issue-select-button__zBdPD:nth-child(odd) {
+    margin: 0 10px 10px 0
+}
+
+.IssueSelect_issue-select-button-action__ygFQQ {
+    display: flex;
+    flex: 1 1;
+    justify-content: flex-end
+}
+
+.IssueSelect_issue-select-button-check__RLLbn {
+    display: flex;
+    justify-content: flex-end
+}
+
+.IssueSelect_issue-select-button__zBdPD:hover {
+    box-shadow: 0 0 7.1px 0 #c1cbdd8f,0 0 7.1px 0 #c1cbdd8f
+}
+
+.mb-5 {
+    margin-bottom: 10px;
+}
+
+body {
+    --font10: 10px;
+    --font11: 11px;
+    --font12: 12px;
+    --font13: 13px;
+    --font14: 14px;
+    --font15: 15px;
+    --font16: 16px;
+    --font17: 17px;
+    --font18: 18px;
+    --font20: 20px;
+    --font24: 24px;
+    --font28: 28px;
+}
+
+body, html {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    --bg-drk: #b33209;
+    --bg-primary: #d35209;
+    --bg-primary-50: #d3520980;
+    --bg-primary-25: #d3520940;
+    --bg-primary-12: #d3520920;
+    --bg-primary-06: #d3520910;
+    --bg-secondary: #252b5c;
+    --bg-secondary-85: #252b5cd9;
+    --bg-secondary-50: #252b5c80;
+    --bg-secondary-25: #252b5c40;
+    --font10: calc(4px + 1.2vw);
+    --font11: calc(5px + 1.2vw);
+    --font12: calc(6px + 1.2vw);
+    --font13: calc(7px + 1.2vw);
+    --font14: calc(7px + 1.4vw);
+    --font15: calc(8px + 1.4vw);
+    --font16: calc(8px + 1.6vw);
+    --font17: calc(9px + 1.6vw);
+    --font18: calc(10px + 1.6vw);
+    --font20: calc(11px + 1.8vw);
+    --font24: calc(13px + 2.15vw);
+    --font28: calc(15px + 2.4vw);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
